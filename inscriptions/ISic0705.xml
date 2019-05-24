@@ -9,24 +9,32 @@
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
                 <respStmt>
-                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan
+                        Prag</name>
                     <resp>original data collection and editing</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James
+                        Cummings</name>
                     <resp>conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James
+                        Chartrand</name>
                     <resp>site construction and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria
+                        Vitale</name>
                     <resp>editing of geo data</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="LL" ref="https://orcid.org/0000-0003-0646-2188">Laura Löser</name>
+                    <resp>EpiDoc editing</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -38,20 +46,19 @@
                 <idno type="EDCS"/>
                 <idno type="PHI"/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative
-                        Commons-Attribution 4.0 licence.
-                    </licence>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a
+                        Creative Commons-Attribution 4.0 licence. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><!--Default country and region-->
+                    <msIdentifier>
+                        <!--Default country and region-->
                         <country>Italy</country>
                         <region>Sicily</region>
                         <settlement>Catania</settlement>
-                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di
-                            Catania
-                        </repository>
+                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018"
+                            >Museo Civico di Catania </repository>
                         <!--No inventory number found-->
                         <!--Adding location for old id numbers if available-->
                         <altIdentifier>
@@ -67,10 +74,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
-                                        marble
-                                    </material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="marble"
+                                        ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        marble </material>
+                                    <dimensions>
+                                        <!--Default values and requires editing-->
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -79,7 +87,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout><!--Default value and requires checking-->
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved
+                                    <rs type="execution"
+                                        ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -100,15 +109,15 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-                                    <geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient"
+                                    ref="http://pleiades.stoa.org/places/462270">Catina
+                                        <geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://sws.geonames.org/2525068">Catania
-                                </placeName>
+                                <placeName type="modern" ref="http://sws.geonames.org/2525068"
+                                    >Catania </placeName>
                             </origPlace>
-                            <origDate n="JKa" notBefore-custom="0100" notAfter-custom="0250">C2 AD or beginning C3 AD
-                                (K)
-                            </origDate>
+                            <origDate n="JKa" notBefore-custom="0100" notAfter-custom="0250">C2 AD
+                                or beginning C3 AD (K) </origDate>
                         </origin>
                         <provenance type="found"/>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
@@ -128,20 +137,25 @@
                     <p>Julian Calendar</p>
                 </calendar>
             </calendarDesc>
-            <langUsage><!--English and Italian added by default (for translations) delete where not appropriate.-->
+            <langUsage>
+                <!--English and Italian added by default (for translations) delete where not appropriate.-->
                 <language ident="en">English</language>
                 <language ident="it">Italian</language>
                 <language ident="la">Latin</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                    <term n="funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html"
+                        >funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unchecked">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
+                <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from
+                    database</change>
+                <change when="2019-05-24" who="#LL">Laura Löser edited the auto-generated text and
+                    added an apparatus and a translation.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -163,48 +177,48 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="EDR" n="EDR138811" xml:lang="la">
+            <div type="edition" xml:lang="la" resp="LL">
                 <ab>
                     <lb n="1"/>
                     <expan>
                         <abbr>D</abbr>
                         <ex>is</ex>
                     </expan>
+                    ·
                     <expan>
                         <abbr>M</abbr>
                         <ex>anibus</ex>
                     </expan>
-                    <unclear>s</unclear>(acrum).
+                    <expan>
+                        <abbr><unclear>s</unclear></abbr>
+                        <ex>acrum</ex>
+                    </expan>
                     <lb n="2"/>
                     <expan>
                         <abbr>L</abbr>
                         <ex>ucius</ex>
                     </expan>
+                    ·
                     <expan>
                         <abbr>Vib</abbr>
                         <ex>ius</ex>
-                    </expan>
-                    Sot
-                    <unclear>e</unclear>
-                    <supplied reason="lost">r</supplied>
-                    <certainty match="preceding-sibling::node()" locus="value"/>
+                    </expan> · Sot <unclear>e</unclear>
+                    <supplied reason="lost" cert="low">r</supplied>
                     <lb n="3"/>
                     <expan>
                         <abbr>vix</abbr>
                         <ex>it</ex>
                     </expan>
+                    ·
                     <expan>
                         <abbr>ann</abbr>
                         <ex>is</ex>
-                    </expan>
-                    X̅L̅I̅<gap reason="lost" extent="unknown" unit="character"/>,
+                    </expan> <num atLeast="41" atMost="44"><hi rend="supraline">XLI</hi><gap reason="lost" extent="unknown" unit="character"/></num>
                     <lb n="4"/>
                     <expan>
                         <abbr>Vib</abbr>
                         <ex>ia</ex>
-                    </expan>
-                    Lecata
-                    <expan>
+                    </expan> Lecata <expan>
                         <abbr>vix</abbr>
                         <ex>it</ex>
                     </expan>
@@ -212,9 +226,7 @@
                     <expan>
                         <abbr>ann</abbr>
                         <ex>is</ex>
-                    </expan>
-                    X̅X̅X̅V̅I̅;
-                    <expan>
+                    </expan> <num value="36"><hi rend="supraline">XXXVI</hi></num> <expan>
                         <abbr>L</abbr>
                         <ex>ucius</ex>
                     </expan>
@@ -222,20 +234,24 @@
                         <abbr>Vib</abbr>
                         <ex>ius</ex>
                     </expan>
-                    <lb n="6"/>Niceros
+                    <lb n="6"/>Niceros ·
                     <expan>
                         <abbr>f</abbr>
                         <ex>ecit</ex>
-                    </expan>
-                    filius.
-                </ab>
+                    </expan> filius </ab>
                 <!--This EDR text 138811 originally came via the Europeana EAGLE project, http://www.eagle-network.eu/-->
             </div>
-            <div type="apparatus">
-                <p><!--external apparatus criticus (if applicable)--></p>
+            <div type="apparatus" resp="LL">
+                <p>
+                    <listApp>
+                        <app>
+                            <note>Text based on IMusCatania with added interpuncts.</note>
+                        </app>
+                        
+                    </listApp></p>
             </div>
-            <div type="translation">
-                <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
+            <div type="translation" xml:lang="en" resp="LL">
+                <p> Sanctuary to the spirits of the departed. Lucius Vibius Soter lived for 41 years. Vibia Lecata lived for 36 years. Licius Vibius Niceros, the son, set this up.</p>
             </div>
             <div type="commentary">
                 <p><!--commented out pending revision-->

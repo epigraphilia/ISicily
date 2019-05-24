@@ -9,24 +9,32 @@
                 <principal ref="#JP">Jonathan Prag</principal>
                 <funder>John Fell OUP Research Fund</funder>
                 <respStmt>
-                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan Prag</name>
+                    <name xml:id="JP" ref="http://orcid.org/0000-0003-3819-8537">Jonathan
+                        Prag</name>
                     <resp>original data collection and editing</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James Cummings</name>
+                    <name xml:id="JCu" ref="http://orcid.org/0000-0002-6686-3728">James
+                        Cummings</name>
                     <resp>conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James Chartrand</name>
+                    <name xml:id="JCh" ref="http://orcid.org/0000-0001-6823-0265">James
+                        Chartrand</name>
                     <resp>site construction and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria Vitale</name>
+                    <name xml:id="VV" ref="http://orcid.org/0000-0002-9695-0240">Valeria
+                        Vitale</name>
                     <resp>editing of geo data</resp>
                 </respStmt>
                 <respStmt>
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="LL" ref="https://orcid.org/0000-0003-0646-2188">Laura Löser</name>
+                    <resp>EpiDoc editing</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -38,20 +46,19 @@
                 <idno type="EDCS"/>
                 <idno type="PHI"/>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative
-                        Commons-Attribution 4.0 licence.
-                    </licence>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a
+                        Creative Commons-Attribution 4.0 licence. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier><!--Default country and region-->
+                    <msIdentifier>
+                        <!--Default country and region-->
                         <country>Italy</country>
                         <region>Sicily</region>
                         <settlement>Catania</settlement>
-                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018">Museo Civico di
-                            Catania
-                        </repository>
+                        <repository role="museum" ref="http://sicily.classics.ox.ac.uk/museum/018"
+                            >Museo Civico di Catania </repository>
                         <idno type="inventory">333</idno>
                         <!--Adding location for old id numbers if available-->
                         <altIdentifier>
@@ -67,10 +74,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material n="marble" ref="http://www.eagle-network.eu/voc/material/lod/48.html">
-                                        marble
-                                    </material>
-                                    <dimensions><!--Default values and requires editing-->
+                                    <material n="marble"
+                                        ref="http://www.eagle-network.eu/voc/material/lod/48.html">
+                                        marble </material>
+                                    <dimensions>
+                                        <!--Default values and requires editing-->
                                         <height unit="cm"/>
                                         <width unit="cm"/>
                                         <depth unit="cm"/>
@@ -79,7 +87,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout><!--Default value and requires checking-->
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved
+                                    <rs type="execution"
+                                        ref="http://www.eagle-network.eu/voc/writing/lod/1">Engraved
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -100,14 +109,15 @@
                     <history>
                         <origin>
                             <origPlace datingMethod="#julian">
-                                <placeName type="ancient" ref="http://pleiades.stoa.org/places/462270">Catina
-                                    <geo>37.49223, 15.07041</geo>
+                                <placeName type="ancient"
+                                    ref="http://pleiades.stoa.org/places/462270">Catina
+                                        <geo>37.49223, 15.07041</geo>
                                 </placeName>
-                                <placeName type="modern" ref="http://sws.geonames.org/2525068">Catania
-                                </placeName>
+                                <placeName type="modern" ref="http://sws.geonames.org/2525068"
+                                    >Catania </placeName>
                             </origPlace>
-                            <origDate n="IJa" notBefore-custom="0001" notAfter-custom="0150">C1 AD or early C2 AD
-                            </origDate>
+                            <origDate n="IJa" notBefore-custom="0001" notAfter-custom="0150">C1 AD
+                                or early C2 AD </origDate>
                         </origin>
                         <provenance type="found"/>
                         <provenance type="observed" subtype="autopsied">No Autopsy</provenance>
@@ -127,7 +137,8 @@
                     <p>Julian Calendar</p>
                 </calendar>
             </calendarDesc>
-            <langUsage><!--English and Italian added by default (for translations) delete where not appropriate.-->
+            <langUsage>
+                <!--English and Italian added by default (for translations) delete where not appropriate.-->
                 <language ident="en">English</language>
                 <language ident="it">Italian</language>
                 <language ident="la">Latin</language>
@@ -138,9 +149,12 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unchecked">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from database</change>
+                <change when="2016-12-03" who="#JC">James Cummings autogenerated EpiDoc output from
+                    database</change>
+                <change when="2019-05-24" who="#LL">Laura Löser edited the auto-generated text and
+                    added an apparatus.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -163,10 +177,20 @@
     <text>
         <body>
             <div type="edition" subtype="unsupplied" xml:lang="la">
-                <ab><!--Greek or Latin (etc.) text here--></ab>
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"></gap>ael<unclear>io</unclear><gap reason="lost" extent="unknown" unit="character"></gap>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"></gap>m<unclear>o</unclear> ma<gap reason="lost" extent="unknown" unit="character"></gap>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"></gap><unclear>ci</unclear>lio · St<gap reason="lost" extent="unknown" unit="character"></gap>
+                </ab>
             </div>
-            <div type="apparatus">
-                <p><!--external apparatus criticus (if applicable)--></p>
+            <div type="apparatus" resp="LL">
+                <p>
+                    <listApp>
+                        <app>
+                            <note>Text based on IMusCatania with added interpuncts and unclear tags/underdots.</note>
+                        </app>
+                        
+                    </listApp></p>
             </div>
             <div type="translation">
                 <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
@@ -179,7 +203,8 @@
                 <listBibl>
                     <bibl type="CIL">
                         <citedRange>
-                            <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883">06.1061</ref>
+                            <ref target="http://arachne.uni-koeln.de/books/CILv10pII1883"
+                                >06.1061</ref>
                         </citedRange>
                         <ptr target="https://www.zotero.org/groups/382445/items/GQN8UZSI"/>
                     </bibl>
