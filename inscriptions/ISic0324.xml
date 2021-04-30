@@ -28,6 +28,10 @@
                     <name xml:id="MM">Michael Metcalfe</name>
                     <resp>museum data collection</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="LL" ref="https://orcid.org/0000-0003-0646-2188">Laura Löser</name>
+                    <resp>add CIL edition</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>I.Sicily</authority>
@@ -154,18 +158,59 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="unsupplied" xml:lang="la">
-                <ab><!--Greek or Latin (etc.) text here--></ab>
+            <div type="edition" xml:lang="la" resp="#LL">
+                        <ab>
+                            <lb n="1"/>
+                            <expan>
+                                <abbr>D</abbr>
+                                <ex>is</ex>
+                            </expan>
+                            ·
+                            <expan>
+                                <abbr>M</abbr>
+                                <ex>anibus</ex>
+                            </expan>
+                            ·
+                            <expan>
+                                <abbr>s</abbr>
+                                <ex>acrum</ex>
+                            </expan>
+                            ·
+                            <lb n="2"/>
+                            <expan>
+                                <abbr>L</abbr>
+                                <ex>ucio</ex>
+                            </expan>
+                            ·
+                            Cornelio
+                            <lb n="3"/>
+                            Campestro
+                            <lb n="4"/>
+                            cupario
+                            <lb n="5"/>
+                            Clau<supplied reason="lost">d</supplied>ia · Paezusa · uxor
+                            <lb n="6"/>
+                            <expan><abbr>vi<supplied reason="lost">x</supplied></abbr><ex>it</ex></expan>
+                            a<gap reason="lost" extent="unknown" unit="character"/>
+                            <num atLeast="25">XXV</num>
+                        </ab>
             </div>
             <div type="apparatus">
                 <p><!--external apparatus criticus (if applicable)--></p>
             </div>
-            <div type="translation">
-                <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div--></p>
+            <div type="translation" xml:lang="en" resp="LL">
+                <p><!--translation(s) - add @xml:lang for 'en' or 'it' to div-->
+                Sacred to the spirits of the underworld. To Lucius Cornelius Campestrus, cask maker. His wife Claudia Paezusa. He lived 25 (? possibly 35, 75, or 85?) years.
+                </p>
             </div>
             <div type="commentary">
                 <p><!--commented out pending revision-->
-                    <!--D.M.S. / L.Cornelio / Campestro / Cupario / Claudia Paezusa uxor / vix a- - -xxv--></p>
+                    <!--D.M.S. / L.Cornelio / Campestro / cupario / Claudia Paezusa uxor / vix a- - -xxv-->
+                </p>
+                <p resp="LL">
+                    As the CIL edition has a gap of unspecified extent in front of the number XXV (25), it may have been XXXV (35), LXXV (75), or LXXXV (85). Autopsy may or may not clarify the situation.
+                    The interpuncts are copied from the CIL but not tagged as specific glyphs because no image could be consulted.
+                </p>
             </div>
             <div type="bibliography">
                 <listBibl>
